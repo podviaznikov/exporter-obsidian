@@ -1,0 +1,35 @@
+.exporter-app-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin-right: 4px;
+  border-radius: 3px;
+}
+
+.exporter-source-link .exporter-app-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0;
+}
+
+a.exporter-source-link .external-link-icon {
+  display: none;
+}
+a.exporter-source-link::after {
+  display: none !important;
+}
+
+.exporter-view-action-icon {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+.exporter-status-bar {
+  cursor: pointer;
+}
+
+.exporter-status-bar:hover {
+  text-decoration: underline;
+}
